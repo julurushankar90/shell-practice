@@ -8,4 +8,3 @@ echo "$PERSON2:: Hi $PERSON1, Iam fine thanks for asking. How are you doing?"
 echo "$PERSON1:: Doing fine. What are you leaning $PERSON2?"
 echo "$PERSON2:: I am learning Shell. What about you?"
 
-
