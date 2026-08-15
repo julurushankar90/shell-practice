@@ -2,10 +2,12 @@
 
 USERID=$(id -U)
 
-if [ $USERID -ne 0 ]; then
+if [ $USERID -ne 0 ] then
     echo "please run this script with root user access"
     exit 1
 fi
+
+# By default shell will not execute , only executed when called
 
 echo "installing nginx"
 dnf install nginx -y
