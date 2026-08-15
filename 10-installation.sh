@@ -7,8 +7,6 @@ if [ $USERID -ne 0 ] then
     exit 1
 fi
 
-# By default shell will not execute , only executed when called
-
 echo "installing nginx"
 dnf install nginx -y
 
